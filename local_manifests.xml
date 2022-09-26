@@ -4,6 +4,7 @@
  <!-- Remotes -->
  <remote name="me" fetch="https://github.com/anant-goel" />
  <remote name="githab" fetch="https://github.com" />
+ <remote name="kk" fetch="https://github.com/karann2354" />
 
  <!-- Trees -->
 
@@ -25,5 +26,6 @@
 <project remote="githab" name="bdjmfoe/clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
 <remove-project name="vendor_corvus" />
 <project path="vendor/corvus" name="vendor_corvus" remote="me" revision="13" />
-
+<project path="vendor/miuicamera" name="vendor_miuicamera" remote="kk" revision="12.1" />
+ 
 </manifest>
