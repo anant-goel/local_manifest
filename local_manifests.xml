@@ -5,6 +5,7 @@
  <remote name="me" fetch="https://github.com/anant-goel" />
  <remote name="githab" fetch="https://github.com" />
  <remote name="kk" fetch="https://github.com/karann2354" />
+ <remote name="cor" fetch="https://github.com/CorvusRom-Devices" />
 
  <!-- Trees -->
 
@@ -27,5 +28,6 @@
 <remove-project name="vendor_corvus" />
 <project path="vendor/corvus" name="vendor_corvus" remote="me" revision="13" />
 <project path="vendor/miuicamera" name="vendor_miuicamera" remote="kk" revision="12.1" />
+<project path="hardware/xiaomi" name="hardware_xiaomi" remote="cor" revision="13">
  
 </manifest>
