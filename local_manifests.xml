@@ -20,7 +20,7 @@
  <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="me" revision="staging/thirteen" />
+ <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="me" revision="thirteen" />
 
 <!-- Hals -->
 <remove-project name="android_hardware_qcom_display" />
