@@ -5,7 +5,7 @@
  <remote name="me" fetch="https://github.com/anant-goel" />
  <remote name="githab" fetch="https://github.com" />
  <remote name="kk" fetch="https://github.com/karann2354" />
- <remote name="cor" fetch="https://github.com/CorvusRom-Devices" />
+ <remote name="xr" fetch="https://github.com/xdroid-oss" />
  <remote name="ar" fetch="https://github.com/ArrowOS" />
 
  <!-- Trees -->
@@ -26,6 +26,7 @@
 <remove-project name="android_hardware_qcom_display" />
 <remove-project name="android_hardware_qcom_media" />
 <remove-project name="android_hardware_qcom_audio" />
+<remove-project name="xd_hardware_xiaomi" />
 <project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />
 <project remote="githab" name="bdjmfoe/clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
 <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="ar" revision="arrow-13.0-caf-sm8250" />
@@ -34,5 +35,6 @@
 <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="ar" revision="arrow-13.0-caf-sm8150" />
 <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="ar" revision="arrow-13.0-caf-sm8250" />
 <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" remote="ar" revision="arrow-13.0-caf-sm8350" />
+<project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xr" />
  
 </manifest>
