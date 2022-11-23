@@ -17,17 +17,15 @@
  <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="me" revision="twelve" />
 
  <!-- Kernel Tree2 -->
- <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
+ <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_veux-headers" remote="me" revision="thirteen" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="me" revision="staging/thirteen" />
+ <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="me" revision="thirteen" />
 
  <!-- Hals -->
  <remove-project name="android_hardware_qcom_display" />
  <project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />
  <project remote="githab" name="bdjmfoe/clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
- <remove-project name="vendor_corvus" />
- <project path="vendor/corvus" name="vendor_corvus" remote="me" revision="12-test" />
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="cor" revision="12-test" />
  
 </manifest>
