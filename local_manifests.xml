@@ -15,10 +15,10 @@
  <project path="device/xiaomi/veux" name="device_xiaomi_peux_1" remote="me" revision="weedos" /> 
 
  <!-- Kernel Tree -->
- <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="me" revision="twelve" />
+ <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="monu" revision="13-1-22" />
 
  <!-- Kernel Tree2 -->
- <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_veux-headers" remote="monu" revision="13-1-22" />
+ <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="me" revision="thirteen" />
