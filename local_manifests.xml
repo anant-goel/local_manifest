@@ -12,7 +12,7 @@
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="device_xiaomi_peux_1" remote="me" revision="weedos" /> 
+ <project path="device/xiaomi/veux" name="device_xiaomi_test" remote="me" revision="weedos" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="monu" revision="13-1-22" />
